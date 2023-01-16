@@ -18,6 +18,7 @@ import withAsyncImport from "../utils/withAsyncImport";
 import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
+import './ColumnControl';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 

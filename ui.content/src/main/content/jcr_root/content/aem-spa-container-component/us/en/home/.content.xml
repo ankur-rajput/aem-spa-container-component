@@ -2,8 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-04T09:50:29.650+02:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-spa-container-component/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="AEM SPA Container Component Home Page"
@@ -21,6 +19,59 @@
                     textIsRich="true">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                 </text>
+                <columncontrol
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-spa-container-component/components/columncontrol"
+                    columnLayout="--33">
+                    <col_1
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 1"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple">
+                        <text
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="aem-spa-container-component/components/text"
+                            text="&lt;p>&lt;b>Column 1&lt;/b>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </col_1>
+                    <col_2
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 2"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple">
+                        <text
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="aem-spa-container-component/components/text"
+                            text="&lt;p>&lt;b>Column 2&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </col_2>
+                    <col_3
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 3"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple">
+                        <text
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="aem-spa-container-component/components/text"
+                            text="&lt;p>&lt;b>Column 3&lt;/b>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </col_3>
+                    <col_4
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 4"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple"/>
+                    <col_5
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 5"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple"/>
+                    <col_6
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column 6"
+                        sling:resourceType="aem-spa-container-component/components/container"
+                        layout="simple"/>
+                </columncontrol>
             </responsivegrid>
         </root>
     </jcr:content>

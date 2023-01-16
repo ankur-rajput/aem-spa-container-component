@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+		  xmlns:jcr="http://www.jcp.org/jcr/1.0"
+		  jcr:primaryType="nt:unstructured"
+		  columnLayout="--50">
+	<col_1 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 1"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+	<col_2 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 2"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+	<col_3 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 3"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+	<col_4 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 4"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+	<col_5 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 5"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+	<col_6 jcr:primaryType="nt:unstructured"
+		   jcr:title="Column 6"
+		   sling:resourceType="aem-spa-container-component/components/container"
+		   layout="simple"/>
+</jcr:root>
